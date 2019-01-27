@@ -3,15 +3,12 @@ const webpack = require('webpack');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-console.log('###################');
-console.log(path.resolve(__dirname, 'dist'));
-
 module.exports = {
   mode: "development",
   devtool: 'source-map',
   entry: [
     // require.resolve("@babel/polyfill"),
-    path.resolve(__dirname, 'src/index.tsx'),
+    path.resolve(__dirname, 'src/app.tsx'),
   ],
   output: {
     filename: 'index.js',
