@@ -40,5 +40,11 @@
     "state"
   ],
   "author": "Jyoti Prakash",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "package.json",
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ]
 }
