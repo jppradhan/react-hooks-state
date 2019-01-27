@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "tsc index.tsx"
+    "build": "npx tsc --outDir ./ --declarationDir ./ --rootDir ./"
   },
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
